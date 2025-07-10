@@ -1,0 +1,16 @@
+using System;
+class Ejercicio3
+{
+    static void Main()
+    {
+        Console.Write("Ingresa tu año de nacimiento: ");
+        int anioNacimiento = int.Parse(Console.ReadLine());
+
+        if (anioNacimiento < 2000)
+            Console.WriteLine("Naciste antes del segundo milenio.");
+        else if (anioNacimiento < 2018)
+            Console.WriteLine("Naciste antes de la pandemia.");
+        else
+            Console.WriteLine("Naciste después de la pandemia.");
+    }
+}
