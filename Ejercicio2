@@ -1,0 +1,17 @@
+using System;
+class Ejercicio2
+{
+    static void Main()
+    {
+        Console.Write("Ingresa tu nombre: ");
+        string nombre = Console.ReadLine();
+
+        Console.Write("Ingresa tu año de nacimiento: ");
+        int anioNacimiento = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingresa tu edad en meses: ");
+        int edadMeses = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("listo");
+    }
+}
