@@ -1,0 +1,14 @@
+using System;
+class Ejercicio4
+{
+    static void Main()
+    {
+        Console.Write("Ingresa tu edad: ");
+        int edad = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < edad; i += 5)
+        {
+            Console.WriteLine($"Lustro: {i / 5}");
+        }
+    }
+}
