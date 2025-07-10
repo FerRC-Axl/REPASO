@@ -1,0 +1,21 @@
+using System;
+class Ejercicio5
+{
+    static void Main()
+    {
+        string contrasenaCorrecta = "1234";
+        string entrada;
+        int intentos = 0;
+        do
+        {
+            Console.Write("Ingresa la contraseña: ");
+            entrada = Console.ReadLine();
+            intentos++;
+        }
+        while (entrada != contrasenaCorrecta && intentos < 3);
+        if (entrada == contrasenaCorrecta)
+            Console.WriteLine("Acceso concedido");
+        else
+            Console.WriteLine("Acceso denegado");
+    }
+}
