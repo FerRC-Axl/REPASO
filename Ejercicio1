@@ -1,0 +1,12 @@
+using System;
+class Ejercicio1
+{
+    static void Main()
+    {
+        string nombre = "Fer";
+        int anioNacimiento = 2000;
+        int edadEnMeses = 288; // Por ejemplo, si tiene 24 años
+
+        Console.WriteLine("listo");
+    }
+}
